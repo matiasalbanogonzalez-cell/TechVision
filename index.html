@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechVision - Soluciones Digitales Innovadoras. Landing page moderna con diseño profesional, Glassmorphism y efectos interactivos.">
+    <meta name="theme-color" content="#7D3FF2">
+    <title>TechVision - Soluciones Digitales Innovadoras</title>
+    
+    <!-- Estilos principales -->
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar">
+        <div class="logo">TechVision</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="nav-button">Comenzar</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- ==================== DECORATIVE BLOBS ==================== -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-badge">✨ Bienvenido a TechVision</div>
+            <h1>Soluciones Digitales del Futuro</h1>
+            <p>Transformamos tus ideas en experiencias digitales impactantes. Con tecnología de vanguardia y diseño innovador, llevamos tu negocio al siguiente nivel.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Explorar Servicios</button>
+                <button class="btn btn-secondary">Saber Más</button>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="service-icon">🚀</div>
+                <h3>Velocidad</h3>
+                <p>Soluciones rápidas y eficientes</p>
+            </div>
+            <div class="floating-card card-2">
+                <div class="service-icon">✨</div>
+                <h3>Diseño</h3>
+                <p>Interfaces modernas y atractivas</p>
+            </div>
+            <div class="floating-card card-3">
+                <div class="service-icon">🔒</div>
+                <h3>Seguridad</h3>
+                <p>Protección de datos garantizada</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services" id="servicios">
+        <div class="section-title">
+            <h2>Nuestros Servicios</h2>
+            <p>Excelencia en cada aspecto del desarrollo digital</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Desarrollo Web</h3>
+                <p>Creamos sitios web modernos, responsivos y de alto rendimiento usando las últimas tecnologías y mejores prácticas de la industria.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Apps Móviles</h3>
+                <p>Aplicaciones nativas e híbridas para iOS y Android que ofrecen experiencias fluidas y atractivas a tus usuarios.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Diseño UI/UX</h3>
+                <p>Interfaces intuitivas y hermosas que combinan estética con funcionalidad, mejorando la experiencia del usuario.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact" id="contacto">
+        <div class="contact-container">
+            <div class="section-title">
+                <h2>Ponte en Contacto</h2>
+                <p>Cuéntanos sobre tu proyecto y te ayudaremos a hacerlo realidad</p>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos más sobre tu proyecto..." required></textarea>
+                </div>
+
+                <button type="submit" class="form-submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <p>&copy; 2026 TechVision. Todos los derechos reservados. | Hecho con ❤️ y <a href="#inicio">Pasión por la Tecnología</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="src/scripts/main.js"></script>
+</body>
+</html>
